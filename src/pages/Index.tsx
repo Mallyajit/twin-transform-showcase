@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import DigitalTwinsTitle from '@/components/DigitalTwinsTitle';
 import DigitalTwinsButton from '@/components/DigitalTwinsButton';
 
@@ -11,9 +12,16 @@ import healthcareTraditional from '@/assets/healthcare-traditional.jpg';
 import healthcareTech from '@/assets/healthcare-tech.jpg';
 
 const Index = () => {
+  const navigate = useNavigate();
+
   const handleButtonClick = (category: string) => {
-    console.log(`Clicked on ${category}`);
-    // Add navigation or modal logic here
+    if (category === 'Engineering & Manufacturing') {
+      navigate('/engineering');
+    } else if (category === 'Smart Transport') {
+      navigate('/transport');
+    } else if (category === 'Healthcare') {
+      navigate('/healthcare');
+    }
   };
 
   return (
