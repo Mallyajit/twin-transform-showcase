@@ -57,6 +57,34 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Digital Twins custom colors
+        "cyber-blue": "hsl(var(--cyber-blue))",
+        "neon-cyan": "hsl(var(--neon-cyan))",
+        "electric-teal": "hsl(var(--electric-teal))",
+        "digital-mint": "hsl(var(--digital-mint))",
+        "tech-purple": "hsl(var(--tech-purple))",
+        "glow-white": "hsl(var(--glow-white))",
+        "dark-steel": "hsl(var(--dark-steel))",
+        "midnight": "hsl(var(--midnight))",
+      },
+      backgroundImage: {
+        "gradient-cyber": "var(--gradient-cyber)",
+        "gradient-neon": "var(--gradient-neon)",
+        "gradient-digital": "var(--gradient-digital)",
+        "gradient-glow": "var(--gradient-glow)",
+      },
+      boxShadow: {
+        "cyber": "var(--shadow-cyber)",
+        "glow": "var(--shadow-glow)",
+        "button": "var(--shadow-button)",
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        "slide-in-left": "slideInFromLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1)",
+        "slide-out-right": "slideOutToRight 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
+        "float": "float 6s infinite ease-in-out",
+        "pulse-glow": "pulse-glow 2s infinite ease-in-out",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +108,48 @@ export default {
             height: "0",
           },
         },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        slideInFromLeft: {
+          "0%": {
+            transform: "translateX(-100%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+        },
+        slideOutToRight: {
+          "0%": {
+            transform: "translateX(0)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+        },
+        float: {
+          "0%, 100%": {
+            transform: "translateY(0) rotate(0deg)",
+          },
+          "25%": {
+            transform: "translateY(-20px) rotate(90deg)",
+          },
+          "50%": {
+            transform: "translateY(-40px) rotate(180deg)",
+          },
+          "75%": {
+            transform: "translateY(-20px) rotate(270deg)",
+          },
+        },
+        "pulse-glow": {
+          "0%, 100%": {
+            boxShadow: "0 0 20px hsl(var(--neon-cyan) / 0.3)",
+          },
+          "50%": {
+            boxShadow: "0 0 40px hsl(var(--neon-cyan) / 0.6)",
+          },
+        },
       },
     },
   },
