@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Digital Twins: Virtual Copies of the Real World
 
-## Project info
+This project was created as part of an **AI-powered web design contest**.  
+The theme is **Digital Twins: Living, Evolving Counterparts**, and the website showcases how digital twin technology is transforming different sectors of our world.  
 
-**URL**: https://lovable.dev/projects/39c579ff-1ed2-4276-81d1-f4c495feeac0
+---
 
-## How can I edit this code?
+## 🌐 Project Overview
 
-There are several ways of editing your application.
+A **Digital Twin** is a virtual representation of a real-world object, system, or process that evolves with its physical counterpart. This website highlights how digital twins are shaping industries and helping us predict, simulate, and improve real-world outcomes.
 
-**Use Lovable**
+The website contains:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/39c579ff-1ed2-4276-81d1-f4c495feeac0) and start prompting.
+- **Homepage**  
+  - A central landing page with interactive visuals and tagline:  
+    *“Where the physical meets the virtual.”*  
+  - Buttons linking to different industry applications.
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Subpages**  
+  1. **Engineering & Manufacturing** – Digital twins optimize production, reduce downtime, and drive innovation.  
+  2. **Smart Transport** – Real-time monitoring and predictive insights make travel seamless and efficient.  
+  3. **Healthcare** – Virtual patient models enable safer, faster, and more personalized treatments.  
 
-**Use your preferred IDE**
+Each section uses **modern UI animations, hover transitions, and thematic color palettes** to visually connect traditional practices with futuristic digital innovation.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
+- Smooth animations and hover transitions  
+- Professional theme with industry-specific visuals  
+- Responsive design using React + TailwindCSS  
+- AI-assisted design (Lovable) with manual refinements  
+- Clear navigation across homepage and subpages  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Tech Stack
+- **React.js** – Frontend framework  
+- **TailwindCSS** – Styling and responsive design  
+- **Vite** – Development server and bundler (fast build)  
+- **Lovable AI** – Initial design generation  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/39c579ff-1ed2-4276-81d1-f4c495feeac0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/digital-twins-website.git
+cd digital-twins-website
